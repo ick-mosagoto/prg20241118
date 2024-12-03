@@ -1,6 +1,21 @@
 
+body{
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
 h1{
     font-size: large;
     font-weight: bold;
     color: darkorange;
+}
+
+h2{
+   color: blue;
+   background-color: black; 
+}
+
+h3{
+    color: aqua;
+    background-color: black;
 }
