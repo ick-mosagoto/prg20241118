@@ -28,8 +28,15 @@
                     <input type="text">
                 </div>
             </fieldest>
-            <input type="submit" value="送　　信" onclick="send()">
+            <input type="submit" value="送　　信" onclick="ques()">
             <script>
+                function ques(){
+                    if(window.confirm("申し込みますか？")){
+                    ;
+                    }else{
+                        send();
+                    }
+                }
                 function send(){
                     alert("できませんでした")
                 }
